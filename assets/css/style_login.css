@@ -1,0 +1,102 @@
+/*==========================
+        General Styles
+==========================*/    
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+h1, li{
+    color: white;
+}
+
+body{
+    max-width:35vw;
+}
+
+/*==========================
+    Switch Sides Nav
+==========================*/  
+
+nav{
+    background: #333;
+    text-align: center;
+}
+
+nav>ul>li, nav>ul>li>a{
+    width: 15vw;
+    padding: 2vh 0;
+    font-size: 42px;
+    display: inline-block;
+}
+
+nav>ul>li:nth-of-type(1){
+    margin: 3vh 0 0 2vw;
+}
+
+nav>ul>li:nth-last-child(2)>a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 42px;
+}
+
+nav>ul>li:nth-of-type(1)>a:hover{
+    background: #68f33d;
+}
+
+nav>ul>li:nth-of-type(2){
+    background: #50ba6e;
+    display: inline-block;
+    margin: 3vh 2vw 0 0;
+}
+
+/*==========================
+            Body
+==========================*/  
+
+main{
+    background: #333;
+    text-align: center;
+    padding-bottom: 2vh;
+}
+
+h1{
+    padding-top: 2vh; 
+}
+
+form{
+    text-align: center;
+}
+
+div>input{
+    height: 4vh;
+    margin: 2vh 0;
+}
+
+form>div>input{
+    display: block;
+    margin-left: 2.5vw;
+    width: 30vw;
+}
+
+p{
+    text-align: right;
+    padding: 1vh 2vw 1vh 0;
+}
+
+p>a{
+    color: #68f33d;
+}
+
+form>div>input:nth-last-child(1){
+    padding-top: 3vh;
+    padding-bottom: 7vh;
+    margin-top: 4vh;
+    background:#50ba6e;
+    color: #fff;
+    font-size: 42px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
